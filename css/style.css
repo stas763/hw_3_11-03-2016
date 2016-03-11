@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+}
+.body {
+font-family: Tahoma, Arial, sans-serif;
+}
+.wrapper{
+margin: 0 auto;
+width: 1060px;
+background: #ffffff;
+}
+.header{
+padding-top: 50px;
+margin-bottom: 45px;
+}
+.menu{
+position: relative;
+overflow: hidden;
+margin-top: 40px;
+background: #5e5e5e;
+}
+.menu li{
+list-style: none;
+float: left;
+}
+.menu a{
+display: block;
+color: #eaeaea;
+line-height: 40px;
+text-decoration: none;
+padding: 0 40px;
+font-size: 15px;
+}
+.menu a:hover{
+background: #4a4a4a;}
+/*CONTENT*/
+.content{
+position: relative;
+overflow: hidden;
+}
+.sidebar{
+float:left;
+width: 238px;
+height: 240px;
+}
+.sidebar-menu{
+border: 1px solid #c8c8c8;
+}
+.sidebar-menu li{
+border-top: 1px solid #c8c8c8;
+}
+.sidebar-menu li:first-child{
+border: none;}
+.sidebar-menu a{
+padding-left: 20px;
+line-height: 37px;
+color: #656363;
+text-decoration: none;
+}
+.sidebar-menu a:hover{
+padding-left: 35px;
+background: #f9f9f9;
+}
+.product{
+float: right;
+width: 680px;
+}
+.product-image{
+height: 400px;
+width: 678;
+border-top: 1px solid #c8c8c8;
+text-align: center;
+}
+.product-description{
+padding: 30px 22px 0 22px;
+color: #2c2c2c;
+font-size: 13px;
+line-height: 21px;
+}
+  /*FOOTER*/
+.footer{
+padding: 50px 0;
+}
+.footer-menu{
+position: relative;
+overflow: hidden;
+background: #e1e1e1;
+}
+.footer-menu li{
+float:left;
+list-style: none;
+line-height: 40px;
+}
+.footer-menu .copyrights{
+float: right;
+padding-right: 25px;
+}
+.footer-menu a{
+display: block;
+padding: 0 50px;
+line-height: 40px;
+color: #2c2c2c;
+text-decoration: none;}
